@@ -1,0 +1,112 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+}
+.menu-bar{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 1% 5%;
+    text-align: right;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    background-image: linear-gradient(73deg, #f8e7e7, #edf6ed);
+    border-radius: 10px;
+    
+}
+#wlc{
+    position: absolute;
+    display: block;
+    color: rgb(102, 2, 102);
+    font-size: 30px;
+}
+.menu-bar a{
+    text-decoration: none;
+    padding: 8px 20px;
+    color: #424141;
+}
+h1{
+    font-size: 65px;
+    padding-top: 2%;
+    margin: auto;
+}
+h2{
+    font-size: 23px;
+}
+.h2-style{
+    font-size: 35px;
+    color:#1a055c;
+}
+.partial-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.partial-width img{
+    width: 100%;
+}
+
+.partial-width p{
+    text-align: justify;
+    color: #20313a;
+}
+
+#name{
+    color: #06c777;
+    margin-top: 2px;
+    
+}
+#name2{
+    color: #ff0000;
+    font-weight: 600;
+}
+section{
+    height: 450px;
+    padding-bottom: 85px;
+    margin-top: 0.5px;
+    background-image: linear-gradient(70deg,#ffffff,#ffffff);
+    border-radius: 8px;
+}
+.link-btn{
+    background-image: linear-gradient(60deg, #f58931, #e952dc);
+    border-radius: 16px;
+    padding: 10px 20px;
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: 700;
+}
+#wr-p{
+    color: tomato;
+}
+.image{
+    width: 20%;
+    float: middle;
+    padding-left: 5%;
+    margin-left: 3%;
+    
+}
+.h2_peoject-style{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #1a055c;
+}
+.work-area{
+    box-shadow: 10px 10px 40px #d1d1d1da;
+    border-radius: 6px;
+    background-color: white;
+    padding: 23px;
+    width: 26%;
+}
+.inquiry img{
+    width: 40%;
+    height: 25%;
+    padding: 25%;
+    position: absolute;
+    display: inline;
+
+}
+#wi{
+    padding: 20%;
+
+}
