@@ -2,6 +2,27 @@ body{
     font-family: 'Oswald', sans-serif;
     margin: 0px;
 }
+
+h1{
+    font-size: 65px;
+    padding-top: 2%;
+    margin: auto;
+}
+
+h2{
+    font-size: 23px;
+}
+
+section{
+    height: 450px;
+    padding-bottom: 85px;
+    margin-top: 0.5px;
+    background-image: linear-gradient(70deg,#ffffff,#ffffff);
+    border-radius: 8px;
+}
+
+  /* style starts for menu bar */
+
 .menu-bar{
     font-size: 22px;
     font-weight: 500;
@@ -24,14 +45,9 @@ body{
     padding: 8px 20px;
     color: #424141;
 }
-h1{
-    font-size: 65px;
-    padding-top: 2%;
-    margin: auto;
-}
-h2{
-    font-size: 23px;
-}
+ /* style ends for menu bar */
+
+ /* hello and about section style starts here */
 .h2-style{
     font-size: 35px;
     color:#1a055c;
@@ -60,13 +76,7 @@ h2{
     color: #ff0000;
     font-weight: 600;
 }
-section{
-    height: 450px;
-    padding-bottom: 85px;
-    margin-top: 0.5px;
-    background-image: linear-gradient(70deg,#ffffff,#ffffff);
-    border-radius: 8px;
-}
+
 .link-btn{
     background-image: linear-gradient(60deg, #f58931, #e952dc);
     border-radius: 16px;
@@ -75,6 +85,9 @@ section{
     text-decoration: none;
     font-weight: 700;
 }
+ /* hello and about section style ends here */
+
+ /* Project working section style starts here */
 #wr-p{
     color: tomato;
 }
@@ -98,16 +111,9 @@ section{
     padding: 23px;
     width: 26%;
 }
-.inquiry{
-    width: 40%;
-    height: 25%;
-    padding: 25%;
-    position: absolute;
-    display: inline;
-    border-radius: 20px;
-    align-items: center;
+/* Project working section style ends here */
 
-}
+ /* work inquiry section style strats here  */
 .inquiry-container {
 
     width: 55%;
@@ -121,6 +127,7 @@ section{
     height: 180px;
     border-radius: 40px;
 }
+
 .container h2{
     padding-top: 65px;
     margin-left: 26px;
@@ -140,3 +147,33 @@ section{
     border-radius: 8px;
     text-decoration: none;
 }
+/* work inquiry section style ends here  */
+
+#exper-id{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #1a055c;
+}
+.training-experience{
+    padding: 1% 0%;
+
+}
+.training-experience .card{
+    background-color: wheat;
+    border-radius: 5px;
+    padding: 10px;
+    height: 500px;
+
+}
+.card-icon{
+    text-align: center;
+}
+.card-icon img{
+    margin-top: 20px;
+    width: 100px;
+}
+.card-desc{
+    text-align: center;
+}
+
